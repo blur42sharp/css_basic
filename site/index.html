@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+</head>
+<body>
+    <header></header>
+    
+    <main class="container"> 
+        <section class="about_me"> <!-- section*3으로 빠르게 생성하며, 각 콘텐츠를 의미에 맞게 시맨틱 태그로 묶어 구분한다. -->
+            <h2>About Me</h2>
+        </section> 
+        
+        <section class="latest_articles">
+            <h2>Latest Articles</h2>
+        </section>
+        
+        <section class="contact">
+            <h2>Contact</h2>
+        </section>
+    </main>
+    
+    <footer></footer>
+</body>
+</html>
+
+<!-- 문서의 구조 설명
+    1. header: 로고, 메뉴 등 페이지 상단에 표시할 정보 포함
+    2. main: 주요 콘텐츠를 section 단위로 나눠 담음
+    3. footer: 저작권 정보와 추가 링크 등 페이지 하단 정보 포함
+    
+    주요 고려 사항
+    - 각 section 태그는 관련된 콘텐츠를 그룹화하여 시맨틱 의미를 부여하며, 제목(h2)을 반드시 포함해야 함. (제목이 없으면 구조 오류 발생 가능)
+    - 시각적으로 제목이 필요 없는 경우 CSS를 사용해 숨길 수 있음.
+    - container 클래스는 메인 콘텐츠의 공통 너비를 설정해 전체 레이아웃의 일관성을 유지함.
+    - id는 고유한 식별이 필요한 요소에만 사용하고, 대부분의 스타일링은 class를 활용해 유연성을 높인다.
+-->
